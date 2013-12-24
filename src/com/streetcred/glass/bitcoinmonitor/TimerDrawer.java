@@ -14,12 +14,10 @@
  * limitations under the License.
  */
 
-package com.google.android.glass.sample.timer;
+package com.streetcred.glass.bitcoinmonitor;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.SurfaceHolder;
 import android.view.View;
 
@@ -29,7 +27,7 @@ import android.view.View;
 public class TimerDrawer implements SurfaceHolder.Callback {
 
     private SurfaceHolder mHolder;
-    private TimerView mView;
+    private com.streetcred.glass.bitcoinmonitor.TimerView mView;
 
     private TimerView.ChangeListener mListener = new TimerView.ChangeListener() {
         @Override

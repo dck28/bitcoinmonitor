@@ -14,14 +14,13 @@
  * limitations under the License.
  */
 
-package com.google.android.glass.sample.timer;
+package com.streetcred.glass.bitcoinmonitor;
 
 import android.app.Activity;
 import com.google.android.glass.touchpad.Gesture;
 import com.google.android.glass.touchpad.GestureDetector;
 import com.google.android.glass.widget.CardScrollView;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.media.AudioManager;

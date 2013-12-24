@@ -14,13 +14,12 @@
  * limitations under the License.
  */
 
-package com.google.android.glass.sample.timer;
+package com.streetcred.glass.bitcoinmonitor;
 
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.SoundPool;
 import android.os.Handler;
-import android.util.Log;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;

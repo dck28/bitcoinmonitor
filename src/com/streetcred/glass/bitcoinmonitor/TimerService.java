@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.glass.sample.timer;
+package com.streetcred.glass.bitcoinmonitor;
 
 import com.google.android.glass.timeline.LiveCard;
 import com.google.android.glass.timeline.LiveCard.PublishMode;
@@ -25,8 +25,6 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
-import android.os.SystemClock;
-import android.util.Log;
 
 /**
  * Service owning the LiveCard living in the timeline.

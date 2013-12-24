@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.glass.sample.timer;
+package com.streetcred.glass.bitcoinmonitor;
 
 import android.app.Activity;
 import android.content.ComponentName;

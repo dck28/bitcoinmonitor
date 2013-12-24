@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.glass.sample.timer;
+package com.streetcred.glass.bitcoinmonitor;
 
 import com.google.android.glass.touchpad.Gesture;
 import com.google.android.glass.touchpad.GestureDetector;
@@ -114,7 +114,7 @@ public class SetTimerActivity extends Activity implements GestureDetector.BaseLi
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode == RESULT_OK && requestCode == SELECT_VALUE) {
             int position = mView.getSelectedItemPosition();
-            SetTimerScrollAdapter.TimeComponents component =
+            com.streetcred.glass.bitcoinmonitor.SetTimerScrollAdapter.TimeComponents component =
                     (SetTimerScrollAdapter.TimeComponents) mAdapter.getItem(position);
 
             mAdapter.setTimeComponent(
